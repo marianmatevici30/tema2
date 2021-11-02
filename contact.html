@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <nav class="meniu">
+            <div class="logo"><img src="logo.png" alt="logo"></div>
+            <ul class="meniuItems">
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="about.html">Blog</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropMenu">Lures</a>
+                    <div class="dropdown-content">
+                      <a href="#">Pike</a>
+                      <a href="#">Perch</a>
+                      <a href="#">Zander</a>
+                      <a href="#">Chub</a>
+                      <a href="#">Trout</a>
+                    </div>
+                  </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1>Contact us!</h2>
+
+<form class="formular">
+    <h4>Datele tale</h4>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+    <br>
+    <h4>Specia favorita</h4>
+    <input type="radio" id="salau" name="specie" value="salau">
+    <label for="salau">Salau</label><br>
+    <input type="radio" id="stiuca" name="specie" value="stiuca">
+    <label for="css">Stiuca</label><br>
+    <input type="radio" id="biban" name="specie" value="biban">
+    <label for="biban">Biban</label>
+    <br>
+    <h4>Tipul/Tipurile de naluci folosite</h4>
+    <input type="checkbox" id="oscilanta" name="lure" value="Osclanta">
+    <label for="oscilanta">Prefer oscilanta</label><br>
+    <input type="checkbox" id="vobler" name="lure" value="Vobler">
+    <label for="vobler"> Prefer voblerele</label><br>
+    <input type="checkbox" id="shaduri" name="lure" value="Voblere">
+    <label for="vobler"> Prefer voblerele</label>
+    <br>
+    <label for="textArea"><h4>Spune-ne despre tine:</h4></label>
+    <textarea name="message" id="textArea" rows="10" cols="25">
+    </textarea>
+
+    <br>
+    <input type="submit" id="submit" value="Submit">
+
+</form>
+</main>
+</body>
+</html>

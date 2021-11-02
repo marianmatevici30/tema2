@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.meniu{
+background-color:gray ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meniuItems{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+.logo img{
+    margin: 0px 30px;
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    border-radius: 30% 10%;
+}
+
+.meniuItems li{
+    margin-left: 50px;
+    list-style: none;
+}
+.meniuItems li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color:black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    background-color:chartreuse;
+  }
+  li a:hover, .dropdown:hover .dropMenu {
+    background-color:green;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+
+main{
+    background-image: url("zander.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;font-size: 30px;
+}
+form{
+
+display: flex;
+flex-direction: column;
+width: 30%;
+padding: 20px;
+
+font-size: 1.5rem;
+
+}
+#fname, #lname{
+    width: 50%;
+}
+
+#submit{
+    width: 50%;
+    align-self: center;
+}
+input,textarea {
+    font-size: 1rem;
+}
